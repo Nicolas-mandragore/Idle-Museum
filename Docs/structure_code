@@ -1,0 +1,18 @@
+Structure du projet :
+- Importation des différents modules et de la base de données dans main.py
+- Utilisation des class :
+	- Class menu permet d’actualiser la barre de navigation entre les pages
+	- Class mes oeuvres gère les fonctions non-visuelles de la page « oeuvres »
+	- Class mon musée gère les fonctions non-visuelles de la page « musée »
+	- Class algotrade gère les fonctions non-visuelles de la page « trading »
+	- Class réseau gère les fonctions non-visuelles de la page « réseau »
+	- Class CustomAlert permet l’affichage d’une alerte ingame
+	- Class jeu, classe principale permettant de gérer l’interface et les différents objets visuels
+	- Class phoneinterface permet de gérer la communication téléphonique avec un PNJ
+- Création des fonctions :
+	- Par exemple, les fonctions de la class jeu :
+		- Page_oeuvre permet de définir la partie inférieure et supérieure ainsi que la structure 		générale de la page d’accueil permettant d’acheter les oeuvres
+		- Page_musee définit la structure de l’onglet « musée »
+		- Page_trading permet l’ajout d’un graphique grâce au module plt (venant de mathplotlib) et 		son actualisation régulière
+		- Page_reseau permet de mettre en relation le joueur avec un PNJ (José) qui permet de 		développer les différentes options de jeu et la diversification des revenus du joueur
+- La musique est gérée grâce au module pygame via pygame.mixer
